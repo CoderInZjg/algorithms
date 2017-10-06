@@ -32,7 +32,7 @@ public class ArmStrongNumber {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// commit file
+		
 		ArmStrongNumber asn = new ArmStrongNumber();
 		System.out.println(Arrays.toString(asn.armStrongNumber()));
 	}
