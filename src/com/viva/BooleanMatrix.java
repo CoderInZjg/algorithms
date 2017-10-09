@@ -4,6 +4,39 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+//Given a boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 (or true) then make all the cells of ith row and jth column as 1.
+//
+//Input:
+//
+//The first line of input contains an integer T denoting the number of test cases.
+//The first line of each test case is r and c,r is the number of rows and c is the number of columns.
+//The second line of each test case contains all the elements of the matrix in a single line separated by a single space.
+//
+//Output:
+//
+//Print the modified array.
+//
+//Constraints:
+//
+//1 ¡Ü T ¡Ü 50
+//1 ¡Ü r,c ¡Ü 20
+//0 ¡Ü Elements of matrix ¡Ü 1
+//
+//Example:
+//
+//Input:
+//3
+//2 2
+//1 0 0 0
+//2 3
+//0 0 0 0 0 1
+//3 4
+//1 0 0 1 0 0 1 0 0 0 0 0
+//
+//Output:
+//1 1 1 0
+//0 0 1 1 1 1
+//1 1 1 1 1 1 1 1 1 0 1 1
 public class BooleanMatrix {
 	
 	public int[] booleanMatrix(int[] arr,int row,int col){
